@@ -663,5 +663,55 @@ a.booking-button.price {
   color:#fff;
   background:#5cd4e8;
 }
-@font-face {  font-family: 'BebasNeue';  src: url('../fonts/bebas-neue/BebasNeue-webfont.eot');  src: url('../fonts/bebas-neue/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),    url('../fonts/bebas-neue/BebasNeue-webfont.woff') format('woff'),    url('../fonts/bebas-neue/BebasNeue-webfont.ttf') format('truetype'),    url('../fonts/bebas-neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');  font-weight: normal;  font-style: normal;}@font-face {  font-family: 'Socialico';  src: url('../fonts/socialico/socialico-webfont.eot');  src: url('../fonts/socialico/socialico-webfontd41d.eot?#iefix') format('embedded-opentype'),    url('../fonts/socialico/socialico-webfont.woff') format('woff'),    url('../fonts/socialico/socialico-webfont.ttf') format('truetype'),    url('../fonts/socialico/socialico-webfont.svg#SocialicoRegular') format('svg');  font-weight: normal;  font-style: normal;}@font-face {  font-family: 'MuseoSans';  src: url('../fonts/museo-sans/20296C_0_0.eot');  src: url('../fonts/museo-sans/20296C_0_0d41d.eot?#iefix') format('embedded-opentype'),    url('../fonts/museo-sans/20296C_0_0.woff') format('woff'),    url('../fonts/museo-sans/20296C_0_0.ttf') format('truetype');  font-weight: normal;  font-style: normal;}@font-face {  font-family: 'MuseoSans';  src: url('../fonts/museo-sans/20296C_1_0.eot');  src: url('../fonts/museo-sans/20296C_1_0d41d.eot?#iefix') format('embedded-opentype'),    url('../fonts/museo-sans/20296C_1_0.woff') format('woff'),    url('../fonts/museo-sans/20296C_1_0.ttf') format('truetype');  font-weight: normal;  font-style: italic;}@font-face {  font-family: 'MuseoSans';  src: url('../fonts/museo-sans/2029AC_0_0.eot');  src: url('../fonts/museo-sans/2029AC_0_0d41d.eot?#iefix') format('embedded-opentype'),    url('../fonts/museo-sans/2029AC_0_0.woff') format('woff'),    url('../fonts/museo-sans/2029AC_0_0.ttf') format('truetype');  font-weight: bold;  font-style: normal;}
+
+.text-center {
+  text-align: center;
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/bebas-neue/BebasNeue-webfont.eot');
+  src: url('../fonts/bebas-neue/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/bebas-neue/BebasNeue-webfont.woff') format('woff'),
+    url('../fonts/bebas-neue/BebasNeue-webfont.ttf') format('truetype'),
+    url('../fonts/bebas-neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Socialico';
+  src: url('../fonts/socialico/socialico-webfont.eot');
+  src: url('../fonts/socialico/socialico-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/socialico/socialico-webfont.woff') format('woff'),
+    url('../fonts/socialico/socialico-webfont.ttf') format('truetype'),
+    url('../fonts/socialico/socialico-webfont.svg#SocialicoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('../fonts/museo-sans/20296C_0_0.eot');
+  src: url('../fonts/museo-sans/20296C_0_0d41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo-sans/20296C_0_0.woff') format('woff'),
+    url('../fonts/museo-sans/20296C_0_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('../fonts/museo-sans/20296C_1_0.eot');
+  src: url('../fonts/museo-sans/20296C_1_0d41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo-sans/20296C_1_0.woff') format('woff'),
+    url('../fonts/museo-sans/20296C_1_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('../fonts/museo-sans/2029AC_0_0.eot');
+  src: url('../fonts/museo-sans/2029AC_0_0d41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/museo-sans/2029AC_0_0.woff') format('woff'),
+    url('../fonts/museo-sans/2029AC_0_0.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
