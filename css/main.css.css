@@ -192,6 +192,7 @@ img.frame {
   border: 10px solid #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   margin: 10px;
+  width: 100%
 }
 div.wrapper-content {
   margin: 0 auto;
@@ -538,7 +539,11 @@ div.one-col div.two-col p {
   padding-bottom: 0;
 }
 a.booking-button.price {
-  width: 170px;
+  width: 75%;
+}
+a.booking-button.home {
+  width: 75%;
+  padding: 0
 }
 /**
   * Rhinoslider 1.02
