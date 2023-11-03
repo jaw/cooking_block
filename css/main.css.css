@@ -462,7 +462,7 @@ ul.nav-main li a:hover, ul.nav-main li a:active {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1b4aa', endColorstr='#df3d02',GradientType=0 ); /* IE6-9 */
 }
 div.slider-wrapper {
-  margin: 50px auto;
+  margin: -4em auto;
   padding: 0 10px;
   width: 720px;
 }
@@ -542,7 +542,7 @@ a.booking-button.price {
   width: 75%;
 }
 a.booking-button.home {
-  width: 75%;
+  width: 100%;
   padding: 0
 }
 /**
