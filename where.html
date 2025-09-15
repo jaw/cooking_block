@@ -60,11 +60,12 @@
     var myOptions = {
       center: new google.maps.LatLng(34.062945, -117.217493),
       zoom: 10,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapId: "CB_MAP_ID",
     };
     var map = new google.maps.Map(document.getElementById("gmap-canvas"),
       myOptions);
-    var marker = new google.maps.Marker({    
+    var marker = new google.maps.marker.AdvancedMarkerElement({    
       position: new google.maps.LatLng(34.062945, -117.217493),    
       map: map    
     });
@@ -72,7 +73,7 @@
   function loadScript() {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCptKtH7VEAnbSzq1AXgECnPY0G1sVh94w&sensor=false&callback=initialize";
+    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAP44pVyJyDKoYVuUtOfs0uWoVDUrgbMkA&callback=initialize&libraries=marker";
     document.body.appendChild(script);
   }
   window.onload = loadScript;
